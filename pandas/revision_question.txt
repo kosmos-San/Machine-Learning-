@@ -1,0 +1,203 @@
+Q1. Display the first 5 rows.
+
+Inspection
+
+ Q2. Print the number of rows and columns.
+
+Inspection
+
+ Q3. Display only the name and salary columns.
+
+Selection
+
+ Q4. Find employees whose salary is greater than 45,000.
+
+Filtering
+
+ Q5. Find all rows where department is missing.
+
+Missing values
+
+ Q6. Fill missing salaries with the average salary.
+
+Missing values
+
+ Q7. Display employees in descending order of salary.
+
+Sorting
+
+ Q8. Find the average salary of each department.
+
+GroupBy
+
+ Q9. Count employees in each department, including missing departments.
+
+Counting
+
+ Q10. Make employee_id the index and verify the result.
+
+
+ Q11. Display the last 3 rows of the DataFrame.
+
+Inspection
+
+ Q12. Display the column names as a Python list.
+
+Inspection
+
+Q13. Select employees whose experience is at least 2 years.
+
+Filtering
+
+ Q14. Select employees from the IT department who have a salary above 50,000.
+
+Multiple conditions
+
+ Q15. Count the missing values in each column.
+
+Missing value
+
+Q16. Remove rows containing any missing values without modifying the original DataFrame.
+
+Missing values
+
+ Q17. Fill missing department values with 'Unknown'.
+
+Missing values
+
+ Q18. Rename the salary column to annual_salary.
+
+Renaming
+
+ Q19. Find the employee with the highest salary, ignoring missing salaries.
+
+Maximum
+ Q20. Calculate the minimum, maximum, and average experience.
+
+ Q21. Select employees with experience between 1 and 3 years, inclusive.
+
+ Q22. Display employees whose names start with the letter 'A'.
+
+ Q23. Select employees who belong to either IT or HR.
+
+ Q24. Display the name and department of employees whose annual salary is missing.
+
+ Q25. Display the third and fourth rows using iloc.
+
+[ ]Q26. Replace missing values in `amount` with 0.
+
+Practice: fillna
+
+[ ] Q27. Fill missing `city` values with 'Unknown' and update the DataFrame.
+
+Practice: fillna
+
+[ ] Q28. Create a `total_items` column equal to `quantity` multiplied by 2.
+
+Practice: New columns
+
+[ ] Q29. Create a `discounted_amount` column equal to 90% of `amount`.
+
+Practice: Arithmetic
+
+[ ] Q30. Drop the `rating` column into a new DataFrame without changing `sales`.
+
+Practice: drop
+
+[ ] Q31. Calculate the total sales amount, ignoring missing values.
+
+Practice: sum
+
+[ ] Q32. Count the number of orders in each category.
+
+Practice: groupby / count
+
+[ ] Q33. Find the average amount for each category.
+
+Practice: groupby / mean
+
+[ ] Q34. Find the maximum quantity for each city.
+
+Practice: groupby / max
+
+[ ] Q35. Sort orders by category alphabetically, then amount from highest to lowest.
+
+Practice: sort_values
+
+[ ] Q36. Find the second-highest distinct order amount.
+
+Practice: unique / sort_values
+
+[ ] Q37. Find orders whose amount is greater than the average amount.
+
+Practice: Boolean filtering / mean
+
+[ ] Q38. Identify duplicate rows based on the customer column.
+
+Practice: duplicated
+
+[ ] Q39. Create a `category_summary` DataFrame with order count and average amount per category.
+
+Practice: groupby / agg
+
+[ ] Q40. Create a `sales_rank` column, ranking orders by amount from highest to lowest.
+
+[ ]Q41. Select orders from Delhi or Mumbai where the amount is greater than 10,000.
+
+isin() + Boolean filtering
+
+[ ] Q42. Display the customer and amount for orders with a rating of 5, sorted by amount in descending order.
+
+Column selection + filtering + sorting
+
+[ ] Q43. Find orders where either the city or rating is missing.
+
+isna() + |
+
+[ ] Q44. Fill missing ratings with the median rating.
+
+fillna() + median()
+
+[ ] Q45. Find the total amount spent by each customer.
+
+groupby() + sum()
+
+[ ] Q46. Find the customer with the highest total spending.
+
+groupby() + sum() + idxmax()
+
+[ ] Q47. Calculate total revenue for each city, excluding missing cities.
+
+groupby() + sum()
+
+[ ] Q48. Find categories whose average order amount exceeds 10,000.
+
+groupby() + mean() + filtering
+
+[ ] Q49. Create a column named revenue_per_item by dividing amount by quantity.
+
+Column creation + arithmetic
+
+[ ] Q50. Select orders with quantity greater than or equal to 2 and rating at least 4.
+
+Multiple Boolean conditions
+
+[ ] Q51. Find the top 3 orders by amount, excluding missing amounts.
+
+dropna() + nlargest()
+
+[ ] Q52. Count the number of distinct customers.
+
+nunique()
+
+[ ] Q53. Find the number of orders for each combination of city and category.
+
+groupby() + size()
+
+[ ] Q54. Create a Boolean column named high_value that is True when amount is at least 20,000.
+
+Boolean column creation
+
+[ ] Q55. Create a summary with total amount, average amount, and order count for each category.
+
+groupby() + agg()
